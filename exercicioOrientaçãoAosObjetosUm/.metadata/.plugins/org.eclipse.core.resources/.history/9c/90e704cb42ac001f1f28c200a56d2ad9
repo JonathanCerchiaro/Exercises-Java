@@ -1,0 +1,36 @@
+package Entities;
+
+public class Rectangle {
+ 
+	public double Width;
+	public double Height;
+	
+	public double Area() {
+	return  Width * Height;
+	
+	}
+	
+	public double Perimeter() {
+	return 2.0 * (Width + Height);
+	}
+	
+	public double Diagonal() {
+	return	Math.sqrt(Height * Height + Width * Width);
+		
+	}
+	
+	public String toString() {
+		return 
+				"Area = " 
+				+ Width * Height 
+			    + " Perimeter = "
+			    + 2.0 * (Width + Height) 
+			    + " Diagonal = " 
+			    + (Height * Height) + (Width * Width);
+	}
+	
+	
+ }
+
+
+

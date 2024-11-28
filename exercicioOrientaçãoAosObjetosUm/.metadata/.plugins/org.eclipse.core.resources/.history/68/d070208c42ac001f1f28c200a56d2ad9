@@ -1,0 +1,29 @@
+package application;
+
+import java.util.Locale;
+
+import java.util.Scanner;
+
+import Entities.Rectangle;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		Rectangle x, y;
+		x = new Rectangle();
+		y = new Rectangle();
+		
+		System.out.println("Enter rectangle width and height: ");
+		x.Height = sc.nextDouble();
+		x.Width = sc.nextDouble();		
+		
+		
+		
+		sc.close();
+	}
+
+}

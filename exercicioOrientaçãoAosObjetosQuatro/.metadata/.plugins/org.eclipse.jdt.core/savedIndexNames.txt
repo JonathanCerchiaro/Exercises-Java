@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+D:\Eclipse Orientação a Objetos\exercicioOrientaçãoAosObjetosQuatro\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+930754602.index
+232858557.index
